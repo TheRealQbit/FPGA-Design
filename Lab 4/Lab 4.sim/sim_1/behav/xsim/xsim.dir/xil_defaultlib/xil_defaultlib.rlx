@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 4/Lab 4.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 4/Lab 4.srcs/sim_1/new/tb_decimal_bcd_encoder.v,1793069050,verilog,,,,tb_decimal_bcd_encoder,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 4/Lab 4.srcs/sim_1/new/tb_ls_encoder_bm.v,1793070555,verilog,,,,tb_ls_encoder_bm,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 4/Lab 4.srcs/sources_1/new/74147_decimal_bcd_encoderDF.v,1793069323,verilog,,C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 4/Lab 4.srcs/sim_1/new/tb_decimal_bcd_encoder.v,,decimal_bcd_encoderDF,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 4/Lab 4.srcs/sources_1/new/ls_encoder_bm.v,1793067792,verilog,,C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 4/Lab 4.srcs/sim_1/new/tb_ls_encoder_bm.v,,ls_encoder_bm,,,,,,,,
