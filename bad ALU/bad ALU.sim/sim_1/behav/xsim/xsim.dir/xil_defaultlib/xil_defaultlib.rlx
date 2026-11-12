@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/bad ALU/bad ALU.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/bad ALU/bad ALU.srcs/sim_1/new/tb_alu4.v,1793240702,verilog,,,,tb_alu4,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/bad ALU/bad ALU.srcs/sim_1/new/tb_alu4_buggy.v,1793237225,verilog,,,,tb_alu4_buggy,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/bad ALU/bad ALU.srcs/sources_1/new/alu4_buggy.v,1793236472,verilog,,C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/bad ALU/bad ALU.srcs/sim_1/new/tb_alu4_buggy.v,,alu4_buggy,,,,,,,,
+C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/bad ALU/bad ALU.srcs/sources_1/new/alu4_fixed.v,1793239462,verilog,,C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/bad ALU/bad ALU.srcs/sim_1/new/tb_alu4.v,,alu4_fixed,,,,,,,,

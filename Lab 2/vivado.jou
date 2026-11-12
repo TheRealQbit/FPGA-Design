@@ -1,0 +1,179 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Oct  6 18:34:25 2026
+# Process ID: 22440
+# Current directory: C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24988 C:\Users\Yago\Documents\UNH\ECE 583\FPGA-Design\Lab 2\Lab 2.xpr
+# Log file: C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/vivado.log
+# Journal file: C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2\vivado.jou
+# Running On        :DESKTOP-4A160DJ
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :AMD Ryzen 5 3600XT 6-Core Processor            
+# CPU Frequency     :3793 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34279 MB
+# Swap memory       :13958 MB
+# Total Virtual     :48238 MB
+# Available Virtual :32997 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v} {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/mux_2bit.v}}
+set_property source_mgmt_mode DisplayOnly [current_project]
+reorder_files -before {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/mux_2bit.v} {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_16usign.v} {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}
+undo
+undo
+update_compile_order -fileset sources_1
+set_property is_global_include true [get_files  {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}]
+set_property is_global_include true [get_files  {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_16usign.v}}]
+update_compile_order -fileset sources_1
+undo
+undo
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}]
+move_files [get_files  {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}]
+add_files -norecurse -scan_for_includes {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_16usign.v} {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top comp_16usign [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset comp_1usign.v
+update_compile_order
+export_ip_user_files -of_objects  [get_files {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}
+refresh_design
+add_files -norecurse -scan_for_includes {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}
+update_compile_order -fileset sources_1
+close_design
+close_project
+create_project project_1 {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1} -part xc7a35tcpg236-1
+add_files -norecurse -scan_for_includes {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/comp_1usign.v}}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new
+file mkdir {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new}
+close [ open {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new/tb_comp1usign.v} w ]
+add_files -fileset sim_1 {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new/tb_comp1usign.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_comp1usign.tcl
+run 320 us
+close_sim
+launch_simulation
+source tb_comp1usign.tcl
+close_sim
+launch_simulation
+source tb_comp1usign.tcl
+close_sim
+add_files -norecurse -scan_for_includes {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sources_1/new/mux_2bit.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mux_2bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new/tb_mux_2bit.v} w ]
+add_files -fileset sim_1 {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/project_1/project_1.srcs/sim_1/new/tb_mux_2bit.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_mux_2bit [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_design
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_mux_2bit.tcl
+close_sim
+close_project
+open_project {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mux_16bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new
+file mkdir {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new}
+close [ open {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new/tb_mux_16bit.v} w ]
+add_files -fileset sim_1 {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new/tb_mux_16bit.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_mux_16bit [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_mux_16bit.tcl
+close_sim
+launch_simulation
+source tb_mux_16bit.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top comp_16usign [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_mux_16bit.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new/tb_comp_16usign.v} w ]
+add_files -fileset sim_1 {{C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.srcs/sim_1/new/tb_comp_16usign.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_comp_16usign [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source tb_comp_16usign.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+close_project
+open_project {C:/Users/Yago/Documents/UNH/ECE 583/FPGA-Design/Lab 2/Lab 2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_comp_16usign.tcl
+close_sim
+launch_simulation
+source tb_comp_16usign.tcl
+close_sim
